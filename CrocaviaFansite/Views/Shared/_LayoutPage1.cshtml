@@ -7,9 +7,25 @@
     <script src="~/Scripts/react/react-dom.js"></script>
     <link href="~/Content/bootstrap-grid.css" rel="stylesheet" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
-    <title>@ViewBag.Title</title>
+    <link href="~/Content/NewSheet1.css" rel="stylesheet" />
+    <title>@ViewBag.Cracvoia</title>
 </head>
 <body>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/Images/Ultras 12.png" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Welcome to MKS Cracvoia fansite</h1>
+        </div>
+    </div>
+    <nav>
+        @Html.ActionLink("Home","Home","Home")
+        @Html.ActionLink("Gallery","Gallery","Home")
+        @Html.ActionLink("History","History","Home")
+    </nav>
     <div>
         @RenderBody()
     </div>

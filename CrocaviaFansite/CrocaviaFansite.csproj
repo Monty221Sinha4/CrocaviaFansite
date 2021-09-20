@@ -153,7 +153,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\NewSheet1.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\football 12.jpg" />
+    <Content Include="Images\Heavy 12.jpg" />
+    <Content Include="Images\KAK.jpg" />
+    <Content Include="Images\kRAC.jfif" />
+    <Content Include="Images\MKS.jpg" />
+    <Content Include="Images\Msks 2.jfif" />
+    <Content Include="Images\Ultras 12.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -205,6 +213,8 @@
     <Content Include="Scripts\bootstrap.esm.js.map" />
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Views\Home\Home.cshtml" />
+    <Content Include="Views\Home\History.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -214,9 +224,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

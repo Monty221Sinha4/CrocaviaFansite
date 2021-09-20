@@ -1,0 +1,40 @@
+﻿body {
+    background-color:ghostwhite;
+
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+
+.p1 {
+    font-family: "Arial Nova";
+   color:red;
+       
+      
+}
+
+.p2 {
+    font-family: 'Arial Nova';
+    color:red;
+}
+
+.p3 {
+    font-family: "Arial Nova", monospace;
+}
